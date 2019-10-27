@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xml:lang="ja">
+  <channel rdf:about="http://www10.plala.or.jp/moyoko/rss.rdf">
+    <title>空手チョップをもう一度。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2019-10-04T18:55:19+09:00</dc:date>
+    <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
+    <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
+    <image rdf:resource="http://www10.plala.or.jp/moyoko/image/Untitled1.jpg"/>
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20191004"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20190208"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20190206"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20181104"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180916"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180505"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180217"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180210"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180209"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180206"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180104"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20171223"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20170408"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20160206"/>
+        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20160109"/>
+      </rdf:Seq>
+    </items>
+  </channel>
+  <image rdf:about="http://www10.plala.or.jp/moyoko/image/Untitled1.jpg">
+    <title>非公式空手バカボンWebsite</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <url>http://www10.plala.or.jp/moyoko/image/Untitled1.jpg</url>
+  </image>
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20191004">
+    <title>いやーVSCode便利だわ！</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2019-10-04</dc:date>
+    <description>TOPページのリンクを幾つか削除（メディアマーカーとか今読ミとか）したほか、はてなブログへのリンクを修正するなどhtml周りを手入れ。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20190208">
+    <title>うっちー53歳バースデーなり！</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2019-02-08</dc:date>
+    <description>今まではCrescent Eveっていうソフトでhtml編集してたけど、今回はVSCode使ってます。思ったより軽量で使いやすい……！</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20190206">
+    <title>大槻"モヨコ"ケンヂ53歳のバースデーなりよ！</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2019-02-06</dc:date>
+    <description>それはそうと、最近やっとGitでhtmlファイル管理始めました。まだまだ全然使いこなせてないけど、これ本当便利だわ。Shift-JISの文字化けさえ無ければ完璧。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20181104">
+    <title>全ページにスムーススクロールを実装。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-11-04</dc:date>
+    <description>今まで一部ページにしか実装していなかったCSSの「scroll-behavior: smooth;」を全ページに記述しました。それだけ。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180916">
+    <title>6年振りにコンテンツ内の記事を更新！！</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-09-16</dc:date>
+    <description>タグ回りやレイアウトはちょくちょくいじってたんですが、本格的に文章を加筆するのは2012年8月以来6年振りとのこと！ 『バカボンのススメ』内「踊れバンバン」を加筆しました。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180505">
+    <title>【CSS1行のみ】画像のドラッグ＆右クリック保存を禁止する方法</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-05-05</dc:date>
+    <description>https://tanomuno.com/archives/1138 ←こちらのサイト（【CSS1行のみ】画像のドラッグ＆右クリック保存を禁止する方法）を参考に画像のあるページを修正してみた。まあ保存されて困るような画像は皆無なんですがね……。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180217">
+    <title>feedlyの登録ボタンが作動してなかったようなので修正。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-02-17</dc:date>
+    <description>サイト内の更新は……まあいいじゃないですかw</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180210">
+    <title>やっとトップページをレスポンシブWebデザインに対応させてみた。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-02-10</dc:date>
+    <description>他のページは以前に対応済みだったんだよね。で、いろいろいじってるうちにレイアウトが少々崩れてしまった。まあデザインはすっきりしたんで、これでトントンかな？？</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180209">
+    <title>昨日はうっちー52歳のバースデーでした！</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-02-09</dc:date>
+    <description>1日遅れてしまいましたが……そしてやっぱり更新は無いのですがww</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180206">
+    <title>大槻"モヨコ"ケンヂ52歳のバースデーでございます！</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-02-06</dc:date>
+    <description>ミューヂック・アワー2013の記事、未着手でございます……スマホにラギッドアーマー装着したり、風呂釜のホース交換してもらったり、土地の契約更新に関する手続きしたり、何かと忙しかったのですよ……。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180104">
+    <title>ケラ御大バースデーに遅れること1日。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2018-01-04</dc:date>
+    <description>取り敢えず55歳ツイートはしっかり確認しましたよ！　更新？　それはまた別の話でさあね……。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20171223">
+    <title>8ヶ月ぶりの更新！　といっても地味な修正やら何やらですが……。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2017-12-23</dc:date>
+    <description>当サイトの画像ファイルを更に圧縮・最適化したのでアップロードついでに、FTPクライアントをWinSCPに変えてみたり。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20170408">
+    <title>Ustream終了の報せに伴いブログパーツ削除。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2017-04-08</dc:date>
+    <description>貼ったのがなんと7年前。栄枯盛衰ですなあ……。あといい加減ミューヂック・アワー2013の記事作らなきゃなあ……。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20160206">
+    <title>大槻ケンヂ50歳のバースデーです祝50歳！</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2016-02-06</dc:date>
+    <description>どうでもいいけど山本昌も50歳なんだよな……すげーな山本昌。いや大槻も50歳でロックミュージシャンとか凄いけどさ。</description>
+  </item>
+
+  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20160109">
+    <title>カウンターリセット日時をアクセスカウンターに併記しました。</title>
+    <link>http://www10.plala.or.jp/moyoko/</link>
+    <dc:date>2016-01-09</dc:date>
+    <description>タイトルの通り、カウンターリセット日時をアクセスカウンターに併記しました。</description>
+  </item>
+
+</rdf:RDF>
