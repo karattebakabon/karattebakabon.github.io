@@ -1,0 +1,25 @@
+html { font-size: 100% /* =16px */ }
+ a { cursor: crosshair; }
+body { cursor: auto; }
+A{text-decoration:none;}
+body {scrollbar-face-color:#102806;
+scrollbar-track-color:#F5DEB3;
+scrollbar-arrow-color:#102806;
+scrollbar-highlight-color:#102806;
+scrollbar-shadow-color:#102806;
+scrollbar-3dlight-color:#102806;
+scrollbar-darkshadow-color:#102806;
+scroll-behavior: smooth;}
+BODY { background-color : #102806; LINK : #DDDDDD; VLINK : #DDDDDD; ALINK : DDDDDD; } /*全体の背景色：*/ 
+body { font-size: 1rem; /* =16px */ }
+BODY { color: #DDDDDD; } /*全体の文字色：白*/
+A:link {color: #DDDDDD; }
+A:visited {color: #DDDDDD; }
+A:active {color: #DDDDDD; }
+A:hover {color: #DDDDDD; position: relative; top: 1px; left: 1px; }
+div.center {text-align: center} /*文字の位置中心*/
+.style1 { font-size: 1rem; } /*選択文字サイズ：16px*/ 
+.style2 { color: #FFFF33; } /*選択色：黄色*/
+.style3 { color: #9999FF; } /*選択色：青*/
+body { margin: 0; padding: 0; }
+img {pointer-events: none;} /*画像のドラッグ＆右クリック保存を禁止*/
