@@ -5,15 +5,16 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:admin="http://webns.net/mvcb/"
   xml:lang="ja">
-  <channel rdf:about="http://www10.plala.or.jp/moyoko/rss.rdf">
+  <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <dc:date>2019-10-04T18:55:19+09:00</dc:date>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2019-11-04T19:03:11+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
-    <image rdf:resource="http://www10.plala.or.jp/moyoko/image/Untitled1.jpg"/>
+    <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191104"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20191004"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20190208"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20190206"/>
@@ -28,15 +29,21 @@
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20171223"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20170408"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20160206"/>
-        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20160109"/>
       </rdf:Seq>
     </items>
   </channel>
-  <image rdf:about="http://www10.plala.or.jp/moyoko/image/Untitled1.jpg">
+  <image rdf:about="https://karattebakabon.github.io/image/Untitled1.jpg">
     <title>非公式空手バカボンWebsite</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <url>http://www10.plala.or.jp/moyoko/image/Untitled1.jpg</url>
+    <link>https://karattebakabon.github.io/</link>
+    <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20191104">
+    <title>フィードURLを新サイト向けに更新しました！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2019-11-04</dc:date>
+    <description>というわけで、今後はこちらのURL「https://karattebakabon.github.io/」にて更新を続けます。とはいえ、ぷららとの契約もそのままなので、当分あちらのサイトも残してはおきますが……ではでは、今後ともよろしくお願いします！</description>
+  </item>
+
   <item rdf:about="http://www10.plala.or.jp/moyoko/#he20191004">
     <title>いやーVSCode便利だわ！</title>
     <link>http://www10.plala.or.jp/moyoko/</link>
@@ -133,13 +140,6 @@
     <link>http://www10.plala.or.jp/moyoko/</link>
     <dc:date>2016-02-06</dc:date>
     <description>どうでもいいけど山本昌も50歳なんだよな……すげーな山本昌。いや大槻も50歳でロックミュージシャンとか凄いけどさ。</description>
-  </item>
-
-  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20160109">
-    <title>カウンターリセット日時をアクセスカウンターに併記しました。</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <dc:date>2016-01-09</dc:date>
-    <description>タイトルの通り、カウンターリセット日時をアクセスカウンターに併記しました。</description>
   </item>
 
 </rdf:RDF>
