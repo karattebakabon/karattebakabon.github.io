@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: karattebakabon.github.io
+Token: 0e4e01f00f1d28339641c63af46a6fd23c1526930ceb38bb1309c0e44c9428e3
