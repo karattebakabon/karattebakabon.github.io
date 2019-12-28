@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2019-12-01T20:26:31+09:00</dc:date>
+    <dc:date>2019-12-28T19:51:28+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191228"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191201"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191104"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20191004"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180206"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180104"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20171223"/>
-        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20170408"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20191228">
+    <title>追加したり削除したり整形したり……。</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2019-12-28</dc:date>
+    <description>defer属性付与を全ファイルに適用したほか、動いてないっぽいtwitter follow badge by go2web20のタグを削除したりコード整形したり。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20191201">
     <title>トップページ周りを色々修正。</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>http://www10.plala.or.jp/moyoko/</link>
     <dc:date>2017-12-23</dc:date>
     <description>当サイトの画像ファイルを更に圧縮・最適化したのでアップロードついでに、FTPクライアントをWinSCPに変えてみたり。</description>
-  </item>
-
-  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20170408">
-    <title>Ustream終了の報せに伴いブログパーツ削除。</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <dc:date>2017-04-08</dc:date>
-    <description>貼ったのがなんと7年前。栄枯盛衰ですなあ……。あといい加減ミューヂック・アワー2013の記事作らなきゃなあ……。</description>
   </item>
 
 </rdf:RDF>
