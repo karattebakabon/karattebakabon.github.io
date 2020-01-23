@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2020-01-18T19:24:43+09:00</dc:date>
+    <dc:date>2020-01-23T19:54:43+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200123"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200118"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200112"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191228"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180217"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180210"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180209"/>
-        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180206"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20200123">
+    <title>『バカボンのススメ』ジャケットを手掛けた漫画家・まついなつき先生逝去</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2020-01-23</dc:date>
+    <description>というわけで、『バカボンのススメ』更新しました。享年59歳。早すぎる死に、合掌……。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20200118">
     <title>旧サイトからの転送設定が完了！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>http://www10.plala.or.jp/moyoko/</link>
     <dc:date>2018-02-09</dc:date>
     <description>1日遅れてしまいましたが……そしてやっぱり更新は無いのですがww</description>
-  </item>
-
-  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180206">
-    <title>大槻"モヨコ"ケンヂ52歳のバースデーでございます！</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <dc:date>2018-02-06</dc:date>
-    <description>ミューヂック・アワー2013の記事、未着手でございます……スマホにラギッドアーマー装着したり、風呂釜のホース交換してもらったり、土地の契約更新に関する手続きしたり、何かと忙しかったのですよ……。</description>
   </item>
 
 </rdf:RDF>
