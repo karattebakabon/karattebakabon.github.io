@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2021-01-03T19:17:26+09:00</dc:date>
+    <dc:date>2021-02-06T20:10:31+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200206"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20190206"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20181104"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180916"/>
-        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20180505"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20210206">
+    <title>大槻"モヨコ"ケンヂ55歳バースデー！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2021-02-06</dc:date>
+    <description>こんなご時世なので配信ライブを開催したとのこと（観てないのかよ）。空バカ配信とかだったら是非観てみたいけども！</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20210103">
     <title>ケラリーノ・サンドロヴィッチ御大58歳バースデーでありんす。</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>http://www10.plala.or.jp/moyoko/</link>
     <dc:date>2018-09-16</dc:date>
     <description>タグ回りやレイアウトはちょくちょくいじってたんですが、本格的に文章を加筆するのは2012年8月以来6年振りとのこと！ 『バカボンのススメ』内「踊れバンバン」を加筆しました。</description>
-  </item>
-
-  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20180505">
-    <title>【CSS1行のみ】画像のドラッグ＆右クリック保存を禁止する方法</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <dc:date>2018-05-05</dc:date>
-    <description>https://tanomuno.com/archives/1138 ←こちらのサイト（【CSS1行のみ】画像のドラッグ＆右クリック保存を禁止する方法）を参考に画像のあるページを修正してみた。まあ保存されて困るような画像は皆無なんですがね……。</description>
   </item>
 
 </rdf:RDF>
