@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2021-02-08T20:20:52+09:00</dc:date>
+    <dc:date>2021-11-05T21:49:14+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20211105"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210103"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20191004"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20190208"/>
         <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20190206"/>
-        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20181104"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20211105">
+    <title>NHKラジオ第一にて空手バカボン「家族の肖像」オンエア！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2021-11-05</dc:date>
+    <description>11月3日文化の日にNHKラジオ第一で放送された「東京ポーキュパインコレクション2021 by ケラリーノ・サンドロヴィッチ VOL.3」にて、空手バカボン「家族の肖像」オンエア！　近日中に当該コンテンツを更新予定。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20210208">
     <title>でもって本日は"ハヤブサのユウ"ことうっちー55歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>http://www10.plala.or.jp/moyoko/</link>
     <dc:date>2019-02-06</dc:date>
     <description>それはそうと、最近やっとGitでhtmlファイル管理始めました。まだまだ全然使いこなせてないけど、これ本当便利だわ。Shift-JISの文字化けさえ無ければ完璧。</description>
-  </item>
-
-  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20181104">
-    <title>全ページにスムーススクロールを実装。</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <dc:date>2018-11-04</dc:date>
-    <description>今まで一部ページにしか実装していなかったCSSの「scroll-behavior: smooth;」を全ページに記述しました。それだけ。</description>
   </item>
 
 </rdf:RDF>
