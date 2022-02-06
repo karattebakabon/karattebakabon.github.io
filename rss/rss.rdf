@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2022-01-03T20:54:17+09:00</dc:date>
+    <dc:date>2022-02-06T19:51:42+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20211106"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20211105"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191228"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191201"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191104"/>
-        <rdf:li rdf:resource="http://www10.plala.or.jp/moyoko/#he20191004"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20220206">
+    <title>大槻"モヨコ"ケンヂ56歳バースデー！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2022-02-06</dc:date>
+    <description>昨日はイヌケラにゲスト出演、今日は生誕祭でオケミス。いつかうっちーとダブル生誕祭で空バカやってほしいなあ……。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20220103">
     <title>ケラリーノ・サンドロヴィッチ御大59歳バースデー&amp;NHK-FMでラジオオンエア！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2019-11-04</dc:date>
     <description>というわけで、今後はこちらのURL「https://karattebakabon.github.io/」にて更新を続けます。とはいえ、ぷららとの契約もそのままなので、当分あちらのサイトも残してはおきますが……ではでは、今後ともよろしくお願いします！</description>
-  </item>
-
-  <item rdf:about="http://www10.plala.or.jp/moyoko/#he20191004">
-    <title>いやーVSCode便利だわ！</title>
-    <link>http://www10.plala.or.jp/moyoko/</link>
-    <dc:date>2019-10-04</dc:date>
-    <description>TOPページのリンクを幾つか削除（メディアマーカーとか今読ミとか）したほか、はてなブログへのリンクを修正するなどhtml周りを手入れ。</description>
   </item>
 
 </rdf:RDF>
