@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2022-02-06T19:51:42+09:00</dc:date>
+    <dc:date>2022-02-08T21:03:53+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20211106"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200112"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191228"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191201"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191104"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20220208">
+    <title>"ハヤブサのユウ"うっちー56歳バースデー！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2022-02-08</dc:date>
+    <description>なんと冨岡義勇と同じ誕生日とのこと。クールな佇まいながら内に秘めた情熱の熱さや、天然っぽいところが似てるような……いや、こじつけか。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20220206">
     <title>大槻"モヨコ"ケンヂ56歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2019-12-01</dc:date>
     <description>index.htmlをCSS→JavaScriptの順序で記述したり、src属性を持つ&lt;script&gt;にdefer属性付与したり、まあ色々手直ししてみました。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20191104">
-    <title>フィードURLを新サイト向けに更新しました！</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2019-11-04</dc:date>
-    <description>というわけで、今後はこちらのURL「https://karattebakabon.github.io/」にて更新を続けます。とはいえ、ぷららとの契約もそのままなので、当分あちらのサイトも残してはおきますが……ではでは、今後ともよろしくお願いします！</description>
   </item>
 
 </rdf:RDF>
