@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2022-08-29T20:40:04+09:00</dc:date>
+    <dc:date>2023-01-07T20:46:35+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230107"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220829"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220206"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200123"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200118"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200112"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20191228"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20230107">
+    <title>ケラリーノ・サンドロヴィッチ御大60歳バースデーに遅れること4日</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2023-01-07</dc:date>
+    <description>ええ、すっかり忘れておりました……てか4日から仕事だったもので。筋少の「いくぢなし」もまだ買ってないし。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20220829">
     <title>久しぶりに空バカ情報！！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2020-01-12</dc:date>
     <description>他のページもまとめて修正したいところなんだけど、手直しの要らないページもあったりするので……。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20191228">
-    <title>追加したり削除したり整形したり……。</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2019-12-28</dc:date>
-    <description>defer属性付与を全ファイルに適用したほか、動いてないっぽいtwitter follow badge by go2web20のタグを削除したりコード整形したり。</description>
   </item>
 
 </rdf:RDF>
