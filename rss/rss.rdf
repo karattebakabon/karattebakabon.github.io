@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2023-01-07T20:46:35+09:00</dc:date>
+    <dc:date>2023-01-21T21:39:57+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230121"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230107"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220829"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220208"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200123"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200118"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200112"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20230121">
+    <title>高橋幸宏氏逝去に伴い、当該リンク更新</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2023-01-21</dc:date>
+    <description>2023年（令和5年）1月11日午前5時59分、脳腫瘍により併発した誤嚥性肺炎のため死去。享年70歳。氏がいなければ「来たるべき世界」もまたなかった。偉大なる作曲者に合唱そして合掌。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20230107">
     <title>ケラリーノ・サンドロヴィッチ御大60歳バースデーに遅れること4日</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2020-01-18</dc:date>
     <description>旧サイトの全htmlファイルをこちらに転送するよう、タグに記述。ただブラウザの設定でJavaScript切ってると転送されないけど……。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20200112">
-    <title>プロフィールページをちょいと修正。</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2020-01-12</dc:date>
-    <description>他のページもまとめて修正したいところなんだけど、手直しの要らないページもあったりするので……。</description>
   </item>
 
 </rdf:RDF>
