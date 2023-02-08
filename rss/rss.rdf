@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2023-02-06T20:51:45+09:00</dc:date>
+    <dc:date>2023-02-08T20:36:56+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230121"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230107"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200206"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200123"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20230208">
+    <title>"ハヤブサのユウ"うっちー57歳バースデー！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2023-02-08</dc:date>
+    <description>うっちーはいつもマスクしてるから新型コロナウイルス対策は万全？？</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20230206">
     <title>大槻"モヨコ"ケンヂ57歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2020-02-06</dc:date>
     <description>本日は特撮ワンマンだそうで。空バカワンマンなんてのはやらないんでしょうかねえ……そして明後日はうっちーバースデー！ あとVSCodeを使うようになって丸1年経ったみたいです。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20200123">
-    <title>『バカボンのススメ』ジャケットを手掛けた漫画家・まついなつき先生逝去</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2020-01-23</dc:date>
-    <description>というわけで、『バカボンのススメ』更新しました。享年59歳。早すぎる死に、合掌……。</description>
   </item>
 
 </rdf:RDF>
