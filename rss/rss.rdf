@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2023-03-26T20:47:26+09:00</dc:date>
+    <dc:date>2024-02-06T21:08:29+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230326"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230206"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210103"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20200208"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20240206">
+    <title>ケラバースデースルーしてもうた……大槻"モヨコ"ケンヂ58歳バースデー</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2024-02-06</dc:date>
+    <description>まあ1月3日は能登地震の2日後だからなあ……。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20230326">
     <title>10年ぶりの空手バカボンLIVE！見てないけど！！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2021-01-03</dc:date>
     <description>昨年はソロワークや鈴木慶一とのユニットでの活動が多かったような……やっぱり空バカはうっちーや大槻が声かけないと動かないんだろうなあ。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20200208">
-    <title>本日は"ハヤブサのユウ"ことうっちーバースデーでやんす。</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2020-02-08</dc:date>
-    <description>最近は筋少の活動がメインでしょうか。たまには空バカのことも思い出してほしいっすねえ……。</description>
   </item>
 
 </rdf:RDF>
