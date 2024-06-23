@@ -2,22 +2,22 @@ name: File Update Notification
 
 on:
   push:
-    branches: [ master ]  # masterブランチへのプッシュ時に実行
+    branches: [ master ]
   pull_request:
-    branches: [ master ]  # masterブランチへのプルリクエスト時に実行
+    branches: [ master ]
 
 jobs:
   notify-file-update:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3　# v2から v3 に更新
+      uses: actions/checkout@v3
       with:
-        fetch-depth: 2  # 最新の2つのコミットを取得
+        fetch-depth: 2
 
     - name: Get changed files
       id: changed-files
-      uses: tj-actions/changed-files@v41 # 最新バージョンに更新（v23から v41 に）
+      uses: tj-actions/changed-files@v41
 
     - name: Display changed files
       run: |
