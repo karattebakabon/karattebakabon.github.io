@@ -2,9 +2,9 @@ name: File Update Notification
 
 on:
   push:
-    branches: [ main ]  # mainブランチへのプッシュ時に実行
+    branches: [ master ]  # mainブランチへのプッシュ時に実行
   pull_request:
-    branches: [ main ]  # mainブランチへのプルリクエスト時に実行
+    branches: [ master ]  # mainブランチへのプルリクエスト時に実行
 
 jobs:
   notify-file-update:
