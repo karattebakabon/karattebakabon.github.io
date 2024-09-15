@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2024-06-23T21:00:35+09:00</dc:date>
+    <dc:date>2024-09-15T23:52:59+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240915"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240623"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240206"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20211106"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20211105"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20210208"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20240915">
+    <title>本格的にCursorを使い始めたので、色々修正中</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2024-09-15</dc:date>
+    <description>AI Chatの提案に従ってメインページと更新履歴をちょいと修正。にしても、文章のサジェストがですます調ばっかりなのはどうなのよ。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20240623">
     <title>ClaudeのArtifactsにてsvgファイル作ったりGithub Actionsの自動化ワークフロー作ったり</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2021-11-05</dc:date>
     <description>11月3日文化の日にNHKラジオ第一で放送された「東京ポーキュパインコレクション2021 by ケラリーノ・サンドロヴィッチ VOL.3」にて、空手バカボン「家族の肖像」オンエア！　近日中に当該コンテンツを更新予定。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20210208">
-    <title>でもって本日は"ハヤブサのユウ"ことうっちー55歳バースデー！</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2021-02-08</dc:date>
-    <description> 東京渋谷は宮益坂下にある街頭ビジョン「渋谷愛ビジョン」にて、大槻＆うっちーへの応援メッセージが流れたそうです。</description>
   </item>
 
 </rdf:RDF>
