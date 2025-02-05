@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2025-01-03T20:30:45+09:00</dc:date>
+    <dc:date>2025-02-05T19:58:43+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240929"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240915"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220829"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220206"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220103"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20250206">
+    <title>大槻"モヨコ"ケンヂ59歳バースデー！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2025-02-06</dc:date>
+    <description>来年は還暦！　赤いちゃんちゃんこ着るのかな？　そういや『子どもたちのCity』の頃に半纏っぽいの着てたよね。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20250103">
     <title>ケラリーノ・サンドロヴィッチ御大62歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2022-02-06</dc:date>
     <description>昨日はイヌケラにゲスト出演、今日は生誕祭でオケミス。いつかうっちーとダブル生誕祭で空バカやってほしいなあ……。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20220103">
-    <title>ケラリーノ・サンドロヴィッチ御大59歳バースデー&amp;NHK-FMでラジオオンエア！</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2022-01-03</dc:date>
-    <description>ご本人曰く、誕生日と重なったのは偶然とのことですが……多分空バカの曲はかからないと思うので、コンテンツの更新はなさげですが……</description>
   </item>
 
 </rdf:RDF>
