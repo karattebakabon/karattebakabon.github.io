@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2025-02-05T19:58:43+09:00</dc:date>
+    <dc:date>2025-02-07T23:23:54+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240929"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230107"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220829"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220208"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220206"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20250208">
+    <title>ハヤブサのユウことうっちー59歳バースデー！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2025-02-08</dc:date>
+    <description>空バカはこの人がいないと始まらないのですよ！</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20250206">
     <title>大槻"モヨコ"ケンヂ59歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2022-02-08</dc:date>
     <description>なんと冨岡義勇と同じ誕生日とのこと。クールな佇まいながら内に秘めた情熱の熱さや、天然っぽいところが似てるような……いや、こじつけか。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20220206">
-    <title>大槻"モヨコ"ケンヂ56歳バースデー！</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2022-02-06</dc:date>
-    <description>昨日はイヌケラにゲスト出演、今日は生誕祭でオケミス。いつかうっちーとダブル生誕祭で空バカやってほしいなあ……。</description>
   </item>
 
 </rdf:RDF>
