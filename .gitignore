@@ -1,1 +1,6 @@
-TODO
+# Ignore RSS table file
+rss/rss.tbl
+
+# Other ignored files
+.cursorindexingignore
+.specstory/

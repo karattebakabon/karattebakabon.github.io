@@ -1,0 +1,11 @@
+Todo:
+  ☐ defer属性の付与
+  ☐ CSS→JavaScriptの順序で記述
+  ☐ Twitter Follow Badgeのコード削除
+  ☐ htmlファイルのコード整形（VSCode上で「shift + alt + F」）
+  ☐ htmlファイルの不具合修正
+  ✔ ぷららのURLのリンクをgithub.ioのほうに修正 @done(19-11-11 20:20)
+  ✔ Googleアドセンスのリンク削除 @done(19-11-02 19:54)
+  ✔ リンクの「moyoko/」部分を削除 @done(19-11-01 19:20)
+  ✔ https://apis.google.com/js/plusone.js を削除 @done(19-11-01 19:24)
+  ✔ GoogleアナリティクスのトラッキングIDを追記 @done(19-11-01 19:53)
