@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2025-02-07T23:23:54+09:00</dc:date>
+    <dc:date>2025-06-23T23:23:54+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250623"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250103"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230121"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230107"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220829"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20220208"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20250623">
+    <title>Claude Code導入で開発効率化</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2025-06-23</dc:date>
+    <description>WSL2環境でClaude Codeを導入。GitHubとの連携で更新作業もスムーズに。まあ、でもこういうAI頼みのやり方どうなんでしょうね……。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20250208">
     <title>ハヤブサのユウことうっちー59歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -135,11 +142,5 @@
     <description>11月9日リリース予定の筋肉少女帯結成40周年記念CD「いくぢなし（ナゴムver.サイズ）」に、なんと「KEEP CHEEP TRICK」「7年殺し」の2曲が収録されるとのこと！　こりゃ数年ぶりにコンテンツ更新あるかもなあ。</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/#he20220208">
-    <title>"ハヤブサのユウ"うっちー56歳バースデー！</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2022-02-08</dc:date>
-    <description>なんと冨岡義勇と同じ誕生日とのこと。クールな佇まいながら内に秘めた情熱の熱さや、天然っぽいところが似てるような……いや、こじつけか。</description>
-  </item>
 
 </rdf:RDF>
