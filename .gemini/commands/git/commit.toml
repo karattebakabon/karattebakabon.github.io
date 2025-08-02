@@ -1,0 +1,12 @@
+In: <project>/.gemini/commands/git/commit.toml
+Invoked via: /git:commit
+
+description = "ステージされた変更内容からGitコミットメッセージを生成します。"
+
+# promptでは !{...} を使ってコマンドを実行し、その出力結果をプロンプト内に埋め込みます。
+
+prompt = """
+以下のgit diffをもとに、Conventional Commit形式の日本語コミットメッセージを生成してください。
+
+```diff
+!{git diff --staged}

@@ -1,0 +1,55 @@
+{
+    "tools": [
+      {
+        "name": "generate_character",
+        "description": "Generate a detailed character profile",
+        "command": "python tools/generate_character.py",
+        "arguments": [
+          {
+            "name": "name",
+            "type": "string",
+            "required": true,
+            "description": "Character's name"
+          },
+          {
+            "name": "role",
+            "type": "string",
+            "required": false,
+            "description": "Character's role in the story (e.g., protagonist, antagonist)"
+          }
+        ]
+      },
+      {
+        "name": "create_plot",
+        "description": "Generate a plot outline based on a theme",
+        "command": "python tools/create_plot.py",
+        "arguments": [
+          {
+            "name": "theme",
+            "type": "string",
+            "required": true,
+            "description": "Theme or genre of the story"
+          },
+          {
+            "name": "length",
+            "type": "number",
+            "required": false,
+            "description": "Desired length of the plot outline"
+          }
+        ]
+      },
+      {
+        "name": "proofread_text",
+        "description": "Proofread and suggest improvements for a text",
+        "command": "python tools/proofread_text.py",
+        "arguments": [
+          {
+            "name": "file",
+            "type": "string",
+            "required": true,
+            "description": "Path to the text file to proofread"
+          }
+        ]
+      }
+    ]
+  }
