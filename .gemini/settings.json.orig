@@ -1,0 +1,16 @@
+{
+  "theme": "GitHub", 
+  "contextFileName": ["GEMINI.md"], 
+  "fileFiltering": {
+    "respectGitIgnore": true,
+    "enableRecursiveFileSearch": true
+  },
+  "autoAccept": false,
+  "sandbox": false,
+  "checkpointing": {
+    "enabled": true
+  },
+  "preferredEditor": "cursor",
+  "coreTools": ["read_file", "write_file", "edit_file", "run_shell_command"],
+  "excludeTools": ["delete_file", "Bash(rm -rf /)", "Bash(rm -rf ~)", "Bash(rm -rf ~/*)", "Bash(rm -rf /*)"]
+}

@@ -4,6 +4,11 @@
 
 ## 2025-08-02
 
+- Gemini CLI関連ファイルの初期設定と追加（`.gemini/commands/git/commit.toml`, `.gemini/extension/extension.json`, `.gemini/settings.json`, `.gemini/update-history.md`）
+- `GEMINI.md` を更新し、ドキュメント分割、禁止コマンド、NGワード、振る舞いのルールに関するガイドラインを追記
+- `GEMINI.md` 内の変更履歴参照先を `update-history.md` に変更
+- 上記変更をコミットし、リモートリポジトリにプッシュ
+
 ## 2025-07-09
 
 `GEMINI.md` を新規作成し、プロジェクトのコンテキストを記述

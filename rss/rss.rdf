@@ -8,14 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2025-06-27T23:23:54+09:00</dc:date>
+    <dc:date>2026-01-03T20:13:06+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250627"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250623"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260103"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20250103"/>
@@ -38,18 +37,11 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
-  <item rdf:about="https://karattebakabon.github.io/#he20250627">
-    <title>Gemini CLI導入で開発効率化</title>
+  <item rdf:about="https://karattebakabon.github.io/#he20260103">
+    <title>ケラリーノ・サンドロヴィッチ御大63歳バースデーでござい</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2025-06-27</dc:date>
-    <description>対話形式でファイルの検索や編集、Git操作まで完結できるようになった。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20250623">
-    <title>Claude Code導入で開発効率化</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2025-06-23</dc:date>
-    <description>WSL2環境でClaude Codeを導入。GitHubとの連携で更新作業もスムーズに。まあ、でもこういうAI頼みのやり方どうなんでしょうね……。</description>
+    <dc:date>2026-01-03</dc:date>
+    <description>そういや先日のKERA sings ナゴムレコードでは空バカからも2曲歌われたそうで（「パヤパヤ」アンコールで「労働者M」）。</description>
   </item>
 
   <item rdf:about="https://karattebakabon.github.io/#he20250208">
@@ -149,6 +141,5 @@
     <dc:date>2022-08-29</dc:date>
     <description>11月9日リリース予定の筋肉少女帯結成40周年記念CD「いくぢなし（ナゴムver.サイズ）」に、なんと「KEEP CHEEP TRICK」「7年殺し」の2曲が収録されるとのこと！　こりゃ数年ぶりにコンテンツ更新あるかもなあ。</description>
   </item>
-
 
 </rdf:RDF>

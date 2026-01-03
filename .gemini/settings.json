@@ -1,16 +1,37 @@
 {
-  "theme": "GitHub", 
-  "contextFileName": ["GEMINI.md"], 
-  "fileFiltering": {
-    "respectGitIgnore": true,
-    "enableRecursiveFileSearch": true
+  "tools": {
+    "autoAccept": false,
+    "core": [
+      "read_file",
+      "write_file",
+      "edit_file",
+      "run_shell_command"
+    ],
+    "exclude": [
+      "delete_file",
+      "Bash(rm -rf /)",
+      "Bash(rm -rf ~)",
+      "Bash(rm -rf ~/*)",
+      "Bash(rm -rf /*)"
+    ],
+    "sandbox": false
   },
-  "autoAccept": false,
-  "sandbox": false,
-  "checkpointing": {
-    "enabled": true
+  "general": {
+    "checkpointing": {
+      "enabled": true
+    },
+    "preferredEditor": "cursor"
   },
-  "preferredEditor": "cursor",
-  "coreTools": ["read_file", "write_file", "edit_file", "run_shell_command"],
-  "excludeTools": ["delete_file", "Bash(rm -rf /)", "Bash(rm -rf ~)", "Bash(rm -rf ~/*)", "Bash(rm -rf /*)"]
+  "context": {
+    "fileName": [
+      "GEMINI.md"
+    ],
+    "fileFiltering": {
+      "respectGitIgnore": true,
+      "enableRecursiveFileSearch": true
+    }
+  },
+  "ui": {
+    "theme": "GitHub"
+  }
 }
