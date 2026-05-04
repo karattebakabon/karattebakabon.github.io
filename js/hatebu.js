@@ -2,16 +2,16 @@ var FJShowHatenaBookmarkInfo = {};
 FJShowHatenaBookmarkInfo.setup = function() {
     var script = document.createElement('script');
     script.type = "text/javascript";
-    script.src = 'http://b.hatena.ne.jp/entry/json/?url=' + encodeURIComponent(location.href) + '&callback=FJShowHatenaBookmarkInfo.show';
+    script.src = 'https://b.hatena.ne.jp/entry/json/?url=' + encodeURIComponent(location.href) + '&callback=FJShowHatenaBookmarkInfo.show';
     document.getElementsByTagName('head')[0].appendChild(script);
 };
 FJShowHatenaBookmarkInfo.show = function(data) {
     var elm = document.getElementById('hatena_bookmark');
     if (!data) {
-        elm.innerHTML = '<p>‚Ü‚¾î•ñ‚ª‚ ‚è‚Ü‚¹‚ñB</p>';
+        elm.innerHTML = '<p>ï¿½Ü‚ï¿½ï¿½ï¿½ñ‚ª‚ï¿½ï¿½ï¿½Ü‚ï¿½ï¿½ï¿½B</p>';
         return;
     }
-    var html = '<p>‚Í‚Ä‚ÈƒuƒbƒNƒ}[ƒN” : <a href="' + data.entry_url + '">' + data.count + '</a></p>';
+    var html = '<p>ï¿½Í‚Ä‚Èƒuï¿½bï¿½Nï¿½}ï¿½[ï¿½Nï¿½ï¿½ : <a href="' + data.entry_url + '">' + data.count + '</a></p>';
     if (data.count > 0) {
         html += '<ul>';
         for (var i = 0, j = data.bookmarks.length; i < j; i++) {
@@ -20,11 +20,11 @@ FJShowHatenaBookmarkInfo.show = function(data) {
             html += '<span class="bookmark-user">' +  bookmark.user + '</span>';
             html += ' <span class="bookmark-date">' +  bookmark.timestamp + '</span>';
             if (bookmark.comment) {
-                html += '<br /><span class="bookmark-comment-title">ƒRƒƒ“ƒg : </span>';
+                html += '<br /><span class="bookmark-comment-title">ï¿½Rï¿½ï¿½ï¿½ï¿½ï¿½g : </span>';
                 html += '<span class="bookmark-comment-text">' +  bookmark.comment + '</span>';
             }
             if (bookmark.tags.length) {
-                html += '<br /><span class="bookmark-tag-title">ƒ^ƒO : </span>';
+                html += '<br /><span class="bookmark-tag-title">ï¿½^ï¿½O : </span>';
                 html += '<span class="bookmark-tag-title">' + bookmark.tags.join(', ') + '</span>';
             }
             html += '</li>';
@@ -32,7 +32,7 @@ FJShowHatenaBookmarkInfo.show = function(data) {
         html += '</ul>';
     }
     if (data.related.length) {
-        html += '<p>ŠÖ˜A‚·‚éWebƒy[ƒW</p>';
+        html += '<p>ï¿½Ö˜Aï¿½ï¿½ï¿½ï¿½Webï¿½yï¿½[ï¿½W</p>';
         html += '<ul>';
         for (i = 0, j = data.related.length; i < j; i++) {
             var related = data.related[i];

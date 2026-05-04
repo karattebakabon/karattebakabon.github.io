@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2026-02-08T20:07:47+09:00</dc:date>
+    <dc:date>2026-05-04T21:19:38+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260504"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260103"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230326"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230206"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230121"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20260504">
+    <title>OpenCode Goにてサイト管理スタート！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2026-05-04</dc:date>
+    <description>取り敢えず問題点をリストアップしてもらってサクッと修正してもらいました！ 月10USDでこの性能は破格！！</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20260208">
     <title>ハヤブサのユウことうっちーこと内田雄一郎氏60歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2023-02-06</dc:date>
     <description>新型コロナウイルスに感染したりと災難にも見舞われたようですが、のほほんと活動しておられるようで何より。</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20230121">
-    <title>高橋幸宏氏逝去に伴い、当該リンク更新</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2023-01-21</dc:date>
-    <description>2023年（令和5年）1月11日午前5時59分、脳腫瘍により併発した誤嚥性肺炎のため死去。享年70歳。氏がいなければ「来たるべき世界」もまたなかった。偉大なる作曲者に合唱そして合掌。</description>
   </item>
 
 </rdf:RDF>
