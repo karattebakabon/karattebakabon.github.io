@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2026-05-04T21:19:38+09:00</dc:date>
+    <dc:date>2026-05-13T21:22:37+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260513"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260504"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260206"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230326"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230208"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230206"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20260513">
+    <title>favicon周りを全ページ統一！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2026-05-13</dc:date>
+    <description>結構バラバラだったり相対パスで表示されてなかったりしたんで、OpenCodeでDeepSeek V4 Proに一気に直してもらいました。いやー快適！</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20260504">
     <title>OpenCode Goにてサイト管理スタート！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2023-02-08</dc:date>
     <description>うっちーはいつもマスクしてるから新型コロナウイルス対策は万全？？</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20230206">
-    <title>大槻"モヨコ"ケンヂ57歳バースデー！</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2023-02-06</dc:date>
-    <description>新型コロナウイルスに感染したりと災難にも見舞われたようですが、のほほんと活動しておられるようで何より。</description>
   </item>
 
 </rdf:RDF>
