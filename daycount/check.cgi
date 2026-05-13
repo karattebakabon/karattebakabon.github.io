@@ -1,12 +1,12 @@
 #!/usr/local/bin/perl
 
-#„¡„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
-#„  DayCounter : check.cgi - 2011/10/07
-#„  Copyright (c) KentWeb
-#„  http://www.kent-web.com/
-#„¤„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
+#â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+#â”‚ DayCounter : check.cgi - 2011/10/07
+#â”‚ Copyright (c) KentWeb
+#â”‚ http://www.kent-web.com/
+#â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
-# ƒ‚ƒWƒ…[ƒ‹éŒ¾
+# ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«å®£è¨€
 use strict;
 use CGI::Carp qw(fatalsToBrowser);
 
@@ -26,55 +26,55 @@ Content-type: text/html
 <ul>
 EOM
 
-# ƒƒOƒtƒ@ƒCƒ‹‚ÌƒpƒXŠm”F
-my %log = (logfile => '—İŒv', today_dat => '–{“ú', yes_dat => 'ğ“ú');
+# ãƒ­ã‚°ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹ç¢ºèª
+my %log = (logfile => 'ç´¯è¨ˆ', today_dat => 'æœ¬æ—¥', yes_dat => 'æ˜¨æ—¥');
 foreach ( keys(%log) ) {
 	if (-e $cf{$_}) {
-		print "<li>$log{$_}ƒƒOƒtƒ@ƒCƒ‹ƒpƒX : OK\n";
+		print "<li>$log{$_}ãƒ­ã‚°ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹ : OK\n";
 
 		if (-r $cf{$_} && -w $cf{$_}) {
-			print "<li>$log{$_}ƒƒOƒtƒ@ƒCƒ‹ƒp[ƒ~ƒbƒVƒ‡ƒ“ : OK\n";
+			print "<li>$log{$_}ãƒ­ã‚°ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³ : OK\n";
 		} else {
-			print "<li>$log{$_}ƒƒOƒtƒ@ƒCƒ‹ƒp[ƒ~ƒbƒVƒ‡ƒ“ : NG\n";
+			print "<li>$log{$_}ãƒ­ã‚°ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ãƒ¼ãƒŸãƒƒã‚·ãƒ§ãƒ³ : NG\n";
 		}
 	} else {
-		print "<li>$log{$_}ƒƒOƒtƒ@ƒCƒ‹ƒpƒX : NG\n";
+		print "<li>$log{$_}ãƒ­ã‚°ãƒ•ã‚¡ã‚¤ãƒ«ãƒ‘ã‚¹ : NG\n";
 	}
 }
 
-# ‰æ‘œƒfƒBƒŒƒNƒgƒŠ
+# ç”»åƒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 foreach ( $cf{gifdir1}, $cf{gifdir2} ) {
 	if (-d $_) {
-		print "<li>‰æ‘œƒfƒBƒŒƒNƒgƒŠƒpƒX ( $_ ) : OK\n";
+		print "<li>ç”»åƒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒ‘ã‚¹ ( $_ ) : OK\n";
 	} else {
-		print "<li>‰æ‘œƒfƒBƒŒƒNƒgƒŠƒpƒX ( $_ ) : NG\n";
+		print "<li>ç”»åƒãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªãƒ‘ã‚¹ ( $_ ) : NG\n";
 	}
 
-	# ‰æ‘œƒ`ƒFƒbƒN
+	# ç”»åƒãƒã‚§ãƒƒã‚¯
 	foreach my $i (0 .. 9) {
 		if (-e "$_/$i.gif") {
-			print "<li>‰æ‘œ : $_/$i.gif : OK\n";
+			print "<li>ç”»åƒ : $_/$i.gif : OK\n";
 		} else {
-			print "<li>‰æ‘œ : $_/$i.gif : NG\n";
+			print "<li>ç”»åƒ : $_/$i.gif : NG\n";
 		}
 	}
 }
 
 eval { require $cf{gifcat_pl}; };
 if ($@) {
-	print "<li>gifcat.plƒeƒXƒg : NG\n";
+	print "<li>gifcat.plãƒ†ã‚¹ãƒˆ : NG\n";
 } else {
-	print "<li>gifcat.plƒeƒXƒg : OK\n";
+	print "<li>gifcat.plãƒ†ã‚¹ãƒˆ : OK\n";
 }
 
 eval { require Image::Magick; };
 if ($@) {
-	print "<li>Image::MagickƒeƒXƒg : NG\n";
+	print "<li>Image::Magickãƒ†ã‚¹ãƒˆ : NG\n";
 } else {
-	print "<li>Image::MagickƒeƒXƒg : OK\n";
+	print "<li>Image::Magickãƒ†ã‚¹ãƒˆ : OK\n";
 }
 
-# ’˜ìŒ •\¦Fíœ‰ü•Ï‹Ö~
+# è‘—ä½œæ¨©è¡¨ç¤ºï¼šå‰Šé™¤æ”¹å¤‰ç¦æ­¢
 print <<EOM;
 </ul>
 <p style="font-size:10px;font-family:Verdana,Helvetica,Arial;margin-top:5em;text-align:center;">

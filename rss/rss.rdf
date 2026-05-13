@@ -8,7 +8,7 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2026-05-13T21:22:37+09:00</dc:date>
+    <dc:date>2026-05-13T22:00:50+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
@@ -38,10 +38,10 @@
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
   <item rdf:about="https://karattebakabon.github.io/#he20260513">
-    <title>favicon周りを全ページ統一！</title>
+    <title>favicon周りを全ページ統一！＆文字化け発生したのでClaude Codeで修正！</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2026-05-13</dc:date>
-    <description>結構バラバラだったり相対パスで表示されてなかったりしたんで、OpenCodeでDeepSeek V4 Proに一気に直してもらいました。いやー快適！</description>
+    <description>結構バラバラだったり相対パスで表示されてなかったりしたんで、OpenCodeでDeepSeek V4 Proに一気に直してもらったら今度は文字化け発生！Claude Codeに再修正してもらいました。</description>
   </item>
 
   <item rdf:about="https://karattebakabon.github.io/#he20260504">

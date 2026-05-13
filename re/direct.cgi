@@ -6,23 +6,23 @@
 # 
 #==================================================================
 
-# TOPƒy[ƒW
+# TOPãƒšãƒ¼ã‚¸
 $TOP = "";
 
-# ƒŠƒtƒŒƒbƒVƒ…‚ðŽg‚¤
+# ãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥ã‚’ä½¿ã†
 $RFRESH = "1";
 
-# ƒŠƒtƒŒƒbƒVƒ…ŽžŠÔi•bj
+# ãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥æ™‚é–“ï¼ˆç§’ï¼‰
 $TIME = "5";
-# ƒŠƒtƒŒƒbƒVƒ…ŽžŠÔiŠO‚©‚ç“ü‚Á‚Ä‚«‚½‚Æ‚«j
+# ãƒªãƒ•ãƒ¬ãƒƒã‚·ãƒ¥æ™‚é–“ï¼ˆå¤–ã‹ã‚‰å…¥ã£ã¦ããŸã¨ãï¼‰
 $E_TIME = "1";
 
-# ‰æ‘œ
+# ç”»åƒ
 $COUNT ="count01.gif";
-# ”wŒiAƒeƒLƒXƒg‚ÌF“™
+# èƒŒæ™¯ã€ãƒ†ã‚­ã‚¹ãƒˆã®è‰²ç­‰
 $body =	"<BODY TEXT=#000000 LINK=FF0000 VINK= BGCOLOR=#FFFFFF>";
 ../cgi-bin/re/?http://www.yahoo.co.jp/
-###### Ý’èI #######
+###### è¨­å®šçµ‚ #######
 
 $QUERY_DATA = $ENV{'QUERY_STRING'};
 
@@ -35,12 +35,12 @@ if ($QUERY_DATA ne '') {
 	print "$body\n";
 	if ($RFRESH eq '1') { print "<META HTTP-EQUIV=\"refresh\" CONTENT=\"$TIME;url=$QUERY_DATA\">"; }
 	print "<a href=\"$QUERY_DATA\">$QUERY_DATA</a><br>";
-	if ($RFRESH eq '1') { print "‚Ö“]‘—’†($TIME\sec)<br><img src=$COUNT>"; }
-	else { print "ã‹LƒTƒCƒg‚ÉƒWƒƒƒ“ƒv‚µ‚Ü‚·BƒŠƒ“ƒN‚ðƒNƒŠƒbƒN‚µ‚Ä‚­‚¾‚³‚¢"; }
+	if ($RFRESH eq '1') { print "ã¸è»¢é€ä¸­($TIME\sec)<br><img src=$COUNT>"; }
+	else { print "ä¸Šè¨˜ã‚µã‚¤ãƒˆã«ã‚¸ãƒ£ãƒ³ãƒ—ã—ã¾ã™ã€‚ãƒªãƒ³ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ãã ã•ã„"; }
 	print "<hr size=1><div align=right><a href=\"http://ra-map.hp.infoseek.co.jp/\" target=\"_top\">imu</a></div></HEAD></HTML>";
 	exit;
 }else{
-# ŠO‚©‚çdirect.cgi‚É“ü‚Á‚Ä‚«‚½ê‡‚Ìˆ—
+# å¤–ã‹ã‚‰direct.cgiã«å…¥ã£ã¦ããŸå ´åˆã®å‡¦ç†
 	print "<HTML><HEAD>";
 	print "<META HTTP-EQUIV=\"refresh\" CONTENT=\"$E_TIME;url=$TOP\">";
 	print "<a href=\"$TOP\">$TOP</a>";
