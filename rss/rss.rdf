@@ -8,12 +8,13 @@
   <channel rdf:about="https://karattebakabon.github.io/rss.rdf">
     <title>空手チョップをもう一度。</title>
     <link>https://karattebakabon.github.io/</link>
-    <dc:date>2026-05-13T22:00:50+09:00</dc:date>
+    <dc:date>2026-05-14T13:47:17+09:00</dc:date>
     <description>非公式空手バカボンWebsite　「空手バカボンを愛し、空手バカボンを憎む、すべての人々へ――」</description>
     <admin:generatorAgent rdf:resource="http://www.infomaker.jp/editorlite/?v=0.93" />
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260514"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260513"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260504"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20260208"/>
@@ -28,7 +29,6 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20240206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230326"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/#he20230208"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -37,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/#he20260514">
+    <title>スマホ表示が一部おかしかったんでレスポンシブ設定を修正（Claude Codeがね）</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2026-05-14</dc:date>
+    <description>連日の修正です。最初Codexにお願いしたんですがローカルファイルいじれなくてGitHub Pages直でいじろうとしたんでClaude Codeに直してもらいました。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/#he20260513">
     <title>favicon周りを全ページ統一！＆文字化け発生したのでClaude Codeで修正！</title>
     <link>https://karattebakabon.github.io/</link>
@@ -133,13 +140,6 @@
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2023-03-26</dc:date>
     <description>昨日開催されたKERA還暦記念LIVEにて、10年ぶりに空手バカボンが演奏したそうで。うっちーがオケを新調、かつ大槻は空バカ用の新唱法を見つけたそうで、まだまだ空バカの伝説は続く……！</description>
-  </item>
-
-  <item rdf:about="https://karattebakabon.github.io/#he20230208">
-    <title>"ハヤブサのユウ"うっちー57歳バースデー！</title>
-    <link>https://karattebakabon.github.io/</link>
-    <dc:date>2023-02-08</dc:date>
-    <description>うっちーはいつもマスクしてるから新型コロナウイルス対策は万全？？</description>
   </item>
 
 </rdf:RDF>
