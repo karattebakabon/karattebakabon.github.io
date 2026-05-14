@@ -42,7 +42,17 @@ p { text-align: center }
   <!--
  a:hover { position: relative; top: 1px; left: 1px; }
  -->
-  </style>
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    .nico-embed {
+      width: 100%;
+      max-width: 312px;
+      box-sizing: border-box;
+    }
+    </style>
   <script type="text/javascript">
 < !--
 var flg = new Array(100)
@@ -166,7 +176,7 @@ var flg = new Array(100)
         （2008年1月14日追記）ニワンゴ提供の動画配信関連サービス「ニコニコ動画」に、業務用・Xbox360用ゲームソフト『THE
         IDOLM@STER』とのマッシュアップによるMADが投稿されたので、以下にリンクを掲載。実際に動画を見つけたのは1月4日なのだが、ずっとリンク貼るの忘れてた。<br>
         <br>
-        <iframe width="312" height="150" src="https://www.nicovideo.jp/thumb/sm1924416" scrolling="no"
+        <iframe class="nico-embed" width="312" height="150" src="https://www.nicovideo.jp/thumb/sm1924416" scrolling="no"
           style="border:solid 1px #CCC;" frameborder="0"><a
             href="https://www.nicovideo.jp/watch/sm1924416">【ニコニコ動画】アイドルマスター　『日本の米』 空手バカボン</a></iframe><br>
         <br>

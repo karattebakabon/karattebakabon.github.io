@@ -41,6 +41,53 @@ p { text-align: center }
     <!--
  a:hover { position: relative; top: 1px; left: 1px; }
  -->
+        html {
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            color: #DDDDDD;
+        }
+
+        .media-table {
+            width: 100%;
+            max-width: 860px;
+            border-collapse: collapse;
+        }
+
+        .media-table td {
+            display: block;
+            padding: 0 0 16px;
+        }
+
+        .media-embed {
+            width: 100%;
+            max-width: 425px;
+            height: auto;
+            aspect-ratio: 425 / 350;
+            border: 0;
+        }
+
+        .nico-embed {
+            width: 100%;
+            max-width: 312px;
+            box-sizing: border-box;
+        }
+
+        @media (min-width: 900px) {
+            .media-table td {
+                display: table-cell;
+                padding: 0 16px 0 0;
+                vertical-align: top;
+            }
+
+            .media-table td:last-child {
+                padding-right: 0;
+            }
+        }
     </style>
     <script type="text/javascript">
 < !--
@@ -149,20 +196,20 @@ var flg = new Array(100)
         <br>
         続いてこの曲を用いた動画作品を幾つかご紹介。<br>
         クリプトン・フューチャー・メディアから発売された音声合成・DTMソフトウェア『初音ミク』に「来たるべき世界」を唄わせたYouTube動画を発見したのでリンク。右側のがそれ。ニコニコ動画からの転載とのこと。ナチュラルにかかるビブラートの気持ち悪さが癖になりそうだ。間奏の「キ○タマ」もいい。<br>
-        <table>
+        <table class="media-table">
             <tr>
-                <td><object width="425" height="350">
+                <td><object class="media-embed" width="425" height="350">
                         <param name="movie" value="https://www.youtube.com/v/ywjimpsMVDE">
                         </param>
                         <param name="wmode" value="transparent">
-                        </param><embed src="https://www.youtube.com/v/ywjimpsMVDE" type="application/x-shockwave-flash"
+                        </param><embed class="media-embed" src="https://www.youtube.com/v/ywjimpsMVDE" type="application/x-shockwave-flash"
                             wmode="transparent" width="425" height="350"></embed></object></td>
                 <td>
-                    <object width="425" height="355">
+                    <object class="media-embed" width="425" height="355">
                         <param name="movie" value="https://www.youtube.com/v/WRzix1TX3G8&rel=1">
                         </param>
                         <param name="wmode" value="transparent">
-                        </param><embed src="https://www.youtube.com/v/WRzix1TX3G8&rel=1"
+                        </param><embed class="media-embed" src="https://www.youtube.com/v/WRzix1TX3G8&rel=1"
                             type="application/x-shockwave-flash" wmode="transparent" width="425"
                             height="355"></embed></object></td>
             </tr>
@@ -170,10 +217,10 @@ var flg = new Array(100)
         更にニワンゴが提供している動画配信関連サービス「ニコニコ動画」に、業務用・Xbox360用ゲームソフト『THE
         IDOLM@STER』とのマッシュアップによるMADが2作投稿されたので、以下にリンクを掲載しておく。ちなみにMAD（MADムービー・MADアニメとも）とは、既存の音声・ゲーム画像・動画・アニメーションなどを合成し、再構成したものを指す。歌詞中の怪しい部分（「占拠」と「セット」、「テクノパワー」と「テクノカー（？　カート？）」）がそのままなのは、ひょっとして当サイトを参照したからだろうか……？<br>
         <br>
-        <iframe width="312" height="150" src="https://www.nicovideo.jp/thumb/sm612894" scrolling="no"
+        <iframe class="nico-embed" width="312" height="150" src="https://www.nicovideo.jp/thumb/sm612894" scrolling="no"
             style="border:solid 1px #CCC;" frameborder="0"><a
                 href="https://www.nicovideo.jp/watch/sm612894">【ニコニコ動画】アイドルマスターMAD 来たるべき世界 （歌詞入）</a></iframe>
-        <iframe width="312" height="150" src="https://www.nicovideo.jp/thumb/sm613291" scrolling="no"
+        <iframe class="nico-embed" width="312" height="150" src="https://www.nicovideo.jp/thumb/sm613291" scrolling="no"
             style="border:solid 1px #CCC;" frameborder="0"><a
                 href="https://www.nicovideo.jp/watch/sm613291">【ニコニコ動画】アイドルマスターMAD 来たるべき世界 （毒電波入）</a></iframe>
         <br>

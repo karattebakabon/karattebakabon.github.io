@@ -42,7 +42,19 @@ p { text-align: center }
   <!--
  a:hover { position: relative; top: 1px; left: 1px; }
  -->
-  </style>
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+    .emphasis-note {
+      width: auto;
+      max-width: 100%;
+      box-sizing: border-box;
+      font-size: clamp(1.75rem, 10vw, 30pt);
+      font-weight: 700;
+    }
+    </style>
   <script type="text/javascript">
     var counter = 100;
 
@@ -233,7 +245,7 @@ var flg = new Array(100)
         　登場人物の単なる列挙、彼らに対する厳しい提言等における歌い手のテンションは異様なほど高い。昔FMラジオで
         この曲を聴いたという人がいた。2人いたので恐らくデマではないのだろう。</font><br>
       <br>
-      <div id="div1" style="font-size:30pt;width:500;font-weight:1500;filter:alpha(opacity=100);">
+      <div id="div1" class="emphasis-note" style="filter:alpha(opacity=100);">
         <font size="5" color="#33ff99">　　だけど・・・</font>
       </div>
       <br>
