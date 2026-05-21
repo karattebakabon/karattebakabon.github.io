@@ -4,3 +4,5 @@ rss/rss.tbl
 # Other ignored files
 .cursorindexingignore
 .specstory/
+.claude/
+2026-*.txt

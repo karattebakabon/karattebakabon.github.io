@@ -22,7 +22,7 @@
 - `rireki.html` - サイト更新履歴（ホームページにiframeで埋め込み）
 - `collection/` - ライブ音源ページ
 - `css/` - 手書きCSSファイル（style1.css～style4.css）
-- `js/` - DragDealer.jsライブラリとはてなブックマーク連携
+- `js/` - はてなブックマーク連携
 - `daycount/` - Perl CGIアクセスカウンターシステム
 - `rss/` - RDF形式のRSSフィード
 - `image/` - 画像、バナー、ファビコン
@@ -31,7 +31,7 @@
 ### 主要技術
 - **フロントエンド**: テーブルベースレイアウトの純粋なHTML4/HTML5
 - **スタイリング**: レトロエフェクト付き手書きCSS（十字カーソル、スクロールバースタイリング）
-- **JavaScript**: UI操作用DragDealer.js、SNSウィジェット
+- **JavaScript**: はてなブックマーク連携
 - **CGI**: アクセス計測用Perlスクリプト（daycount.cgiシステム）
 - **解析**: Google Analytics（レガシーUA追跡）
 
@@ -39,7 +39,6 @@
 複数のCSSファイルがそれぞれ異なる目的を持ちます：
 - `style1.css` - レトロカラースキーム（#102806 ダークグリーン背景）のメインスタイリング
 - `style2.css`, `style3.css`, `style4.css` - 追加のスタイリングバリエーション
-- `dragdealer-main.css` - DragDealer.jsコンポーネント用スタイリング
 
 ### CGIシステム
 `daycount/`ディレクトリには完全なPerlベースのアクセスカウンターが含まれています：
