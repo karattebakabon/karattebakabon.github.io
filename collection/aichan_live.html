@@ -2,7 +2,14 @@
 <html lang="ja">
 
 <head>
-
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script src="https://www.googletagmanager.com/gtag/js?id=G-D90CGM907G" defer></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-D90CGM907G'); // UA-366570-5
+  </script>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Script-Type" content="text/javascript">
@@ -36,14 +43,25 @@ p { text-align: center }
  a:hover { position: relative; top: 1px; left: 1px; }
  -->
   </style>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script src="https://www.googletagmanager.com/gtag/js?id=G-D90CGM907G" defer></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-D90CGM907G'); // UA-366570-5
-  </script>
+  <script type="text/javascript">
+<!--
+var flg = new Array(100)
+
+    var i;
+    for (i = 1; i < 101; i++) { flg[i] = 0 }
+
+    function TextDisplay(tn) {
+      target = "txt" + tn;
+      if (flg[tn] == 0) { document.all[target].style.display = "inline" };
+      if (flg[tn] == 1) { document.all[target].style.display = "none" };
+      flg[tn] = (flg[tn] + 1)
+    }
+//-->
+</script>
+<!--
+  image = new Image();
+  image.src = "image/favicon.svg";
+-->
   <title>わたしはアイちゃんLive　空手バカボン
   </title>
   <meta name="robots" content="index,follow">
