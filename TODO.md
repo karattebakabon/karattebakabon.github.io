@@ -16,14 +16,14 @@
 
 ## P1: モダン化・SEO
 
-- [ ] **CF Worker アクセスカウンター（採用決定・完成）** — 代替実装を P0 の ezcounter 項目で完了済み。✅ 2026-09-06
-- [ ] **OGP / Twitter Card を追加** — 全ページ og:title / og:description / og:image（`image/Untitled1.jpg` か banner.gif）/ `twitter:card`。現在ゼロで、SNS シェア時にカードが出ない。
-- [ ] **sitemap.xml に `<lastmod>` を追加** — 現在 loc/changefreq/priority のみで更新日が無い。
-- [ ] **RSS の重複項目を解消** — `rss/rss.rdf` に同一 `rdf:about`（`#he20260514`）の item が2件。
-- [ ] **GA 関連の掃除** — 全21ファイルで GA4（G-D90CGM907G）に統一済み。残作業: `// UA-366570-5` コメント削除、廃止済みの `verify-v1` メタタグ削除。
-- [ ] **rireki.html の GA 二重計上を止める** — 更新履歴 iframe 内でも gtag が動いていて、トップページ表示時にページビューが二重に計上される。iframe 側の gtag を外す。
-- [ ] **404.html を作る** — 現在不存在。GitHub Pages は 404.html を自動採用するので、レトロ調の「空手チョップもどってきて！」ページを用意。
-- [ ] **残存 http:// リンクの https 化** — collection / index / link / yamaarashi / zunou / rireki 系（mixi・bookmeter・hateblo・lastfm 等）。今のところ実害はないが、外部サービスの前途は https 化に合わせて確認。
+- [x] **CF Worker アクセスカウンター（完成）** — P0 の ezcounter 項目で完了済み。✅ 2026-09-06
+- [x] **OGP / Twitter Card を追加** — 全18ページに og:site_name / og:type / og:url / og:title / og:image / og:description（description保持ページのみ）＋ `twitter:card=summary` を挿入。✅ 2026-09-06
+- [x] **sitemap.xml に `<lastmod>` を追加** — 51URLすべてに git 最終コミット日ベースの lastmod を付与（XMLパース検証済み）。✅ 2026-09-06
+- [x] **RSS の重複項目を解消（A案）** — `rss/rss.rdf` の全 item `rdf:about`・`rdf:li` を `rireki.html#heXXXXMMDD` 実アンカーへ統一。`rireki.html` 側に15個の `<a id>` を付与し、5月14日の2件は `he20260514` / `he20260514b` で分離（about 15/15・li 14/14 全ユニーク・XMLパース検証済み）。✅ 2026-09-06
+- [x] **GA 関連の掃除** — `// UA-366570-5` コメント21ファイル分削除、廃止済み `verify-v1` メタタグ削除。✅ 2026-09-06
+- [x] **rireki.html の GA 二重計上を止める** — iframe 内の gtag スニペットを削除。✅ 2026-09-06
+- [x] **404.html を作る** — レトロ調「404 — 空手チョップはずれた。」ページを新規作成。✅ 2026-09-06
+- [x] **残存 http:// リンクの https 化** — collection / index / link / rireki / yamaarashi / zunou の28リンクを https 化（rireki_old 系は原文保持のため対象外）。✅ 2026-09-06
 
 ## P2: 整理・容量・遊び
 
