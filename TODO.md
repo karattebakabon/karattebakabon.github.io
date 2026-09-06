@@ -10,13 +10,13 @@
 ## P0: 死亡中の外部パーツ（要メンテ）
 
 - [x] **Pocket 保存ボタンを削除** — `index.html`。getpocket.com の btn.js が 503 を返す（Pocket は 2025年にサービス終了）。`pocket-btn` アンカー＋スクリプトをまるごと削除。✅ 2026-09-01
-- [ ] **ezcounter アクセスカウンターを撤去** — `index.html`。カウンター画像 URL が応答せず数字が表示されない。カウンターテーブル＋`(2015年11月13日カウンターリセット)` は削除する。
+- [x] **ezcounter アクセスカウンターを CF Worker に置換** — `index.html`。死亡した ezcounter テーブルを撤去し、自前 Worker `karatte-counter`（`counter-worker/`・KV保存・JST日替わり・today/yesterday/total SVG表示）の img タグに差し替え。✅ 2026-09-06 デプロイ済み（https://karatte-counter.emerald-pencil.workers.dev）
 - [x] **Tweet ボタンを復活** — `index.html`。読み込みスクリプトが欠けていたため `https://platform.twitter.com/widgets.js`（200 生存確認済み）を defer で追加。✅ 2026-09-01
 - [x] **iTunes バッジを `music.apple.com` 直リンクに統一** — `index.html`/`kotou.html`/`susume.html`/`zunou.html`。linkmaker のバッジ画像は取得不能＋アフィリエイト ID（`at=10l78s`）無効のため、『♪Apple Musicで聴く』テキストリンク（`music.apple.com`・301 生存確認済み）に置換。併せて説明文の「iTunes」「価格1200円」表記も更新。✅ 2026-09-01
 
 ## P1: モダン化・SEO
 
-- [ ] **CF Worker アクセスカウンター（採用決定）** — 死亡 ezcounter の代替。既存 CF アカウントの Worker で `page_views` を KV/D1 に記録し、サイト側は 1行 script タグで呼び出し。today / yesterday / total 表示をレトロカウンター風に再現。2026-09-01 着手予定。
+- [ ] **CF Worker アクセスカウンター（採用決定・完成）** — 代替実装を P0 の ezcounter 項目で完了済み。✅ 2026-09-06
 - [ ] **OGP / Twitter Card を追加** — 全ページ og:title / og:description / og:image（`image/Untitled1.jpg` か banner.gif）/ `twitter:card`。現在ゼロで、SNS シェア時にカードが出ない。
 - [ ] **sitemap.xml に `<lastmod>` を追加** — 現在 loc/changefreq/priority のみで更新日が無い。
 - [ ] **RSS の重複項目を解消** — `rss/rss.rdf` に同一 `rdf:about`（`#he20260514`）の item が2件。
