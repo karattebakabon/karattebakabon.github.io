@@ -14,6 +14,7 @@
     <image rdf:resource="https://karattebakabon.github.io/image/Untitled1.jpg"/>
     <items>
       <rdf:Seq>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20260906"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20260514"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20260513"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20260504"/>
@@ -36,6 +37,13 @@
     <link>https://karattebakabon.github.io/</link>
     <url>https://karattebakabon.github.io/image/Untitled1.jpg</url>
   </image>
+  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20260906">
+    <title>死んでた外部パーツを一斉修理！カウンターが再び動き出した！</title>
+    <link>https://karattebakabon.github.io/</link>
+    <dc:date>2026-09-06</dc:date>
+    <description>Pocket削除・Tweetボタン復活・iTunesリンクをApple Musicへ更新、そしてアクセスカウンターをCloudflare Workerで自作復活。OGPやsitemap/RSSの整理・GA残骸掃除・404ページ新設も実施。</description>
+  </item>
+
   <item rdf:about="https://karattebakabon.github.io/rireki.html#he20260514">
     <title>コント系ファイルのフォントサイズ問題等諸々を微修正！</title>
     <link>https://karattebakabon.github.io/</link>
