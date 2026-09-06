@@ -99,7 +99,7 @@ function renderCounter(today, yesterday, total) {
   ${cell(4, "TODAY", today)}
   ${cell(32, "Y'DAY", yesterday)}
   ${cell(60, "TOTAL", total)}
-  <text x="120" y="80" font-size="6.5" fill="#66ccff" font-family="monospace">since 2026-09-06</text>
+  <text x="156" y="82" font-size="6.5" fill="#66ccff" font-family="monospace" text-anchor="end">since 2026-09-06</text>
 </svg>`;
 }
 
