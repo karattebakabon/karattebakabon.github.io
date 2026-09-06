@@ -27,11 +27,10 @@
 
 ## P2: 整理・容量・遊び
 
-- [ ] **css.txt の正規取り込み or 削除** — ルートの css.txt には `rirekiWraper` / `iframeWrap` の定義が入っているが、どこにも読み込まれていない（＝このクラスは現在無効）。style1.css へ取り込むか削除する。
-- [ ] **.gitignore 追加** — `log/`、`2026-*.txt`（ルートの作業ログ類）。
-- [ ] **daycount/（Perl CGI）の取り扱い決定** — GitHub Pages では動かない死蔵品。rireki_old3 からのみ言及あり。archive/ へ退避するか現状維持か決める。
-- [ ] **sound/ の軽量化検討** — 26MB。`yamaarashi/yamaarashi.html` からのみ参照。ビットレート見直しや m4a/opus 化で帯域節約（レトロ感を損なわない範囲で）。
-- [ ] **更新履歴の浅い部分の棚卸し** — rireki.html が 369 行で伸び続けている。過去分は rireki_old 系への追い出しの検討。
+- [x] **css.txt の正規取り込み → 削除** — `.rirekiWraper`/`.iframeWrap`（＋iframe絶対配置）定義を `css/style1.css` 末尾へ取り込み、css.txt 本体は git rm（末尾の死亡 neoearth iframe も同時に消滅）。✅ 2026-09-06
+- [x] **.gitignore 追加** — `log/`、`2026-*.txt` を追加。✅ 2026-09-06
+- [x] **daycount/（Perl CGI）を削除** — 実参照ゼロ（rireki_old3 の言及のみ）・データも 2015年で凍結（total 15）と確認の上で完全削除。コミット履歴でいつでも復元可能。✅ 2026-09-06
+- [x] **更新履歴の棚卸し** — 2018〜2025年分を `rireki_old4.html`（282行）へ分離。rireki.html は151行に短縮。old1〜3 準拠のフッタリンク（「YYYY年までの更新履歴→こちら」形式）＋sitemap.xml への追加＋RDF の移動エントリ7件を rireki_old4.html アンカーへ書き換え（RDF↔アンカー整合 15/15 検証済み）。✅ 2026-09-06
 
 ---
 
@@ -40,6 +39,7 @@
 - **Cloudflare CDN 前段化／独自ドメイン化** — github.io は元々 Fastly CDN で配信されており速度改善の余地がなく、独自ドメイン購入も見送り（2026-09-01 決定）。CF アカウントは API プロキシとアクセスカウンター専用。
 - **デザインのモダン刷新** — テーブルレイアウト・crosshair カーソル・marquee は「2000年代前半の美学」として意図的に保持。
 - **GA4 Data API による カウンター再現** — 14ヶ月制限・メンテ負担の問題から不採用（2026-09-01 決定）。CF Worker 案に統合。
+- **sound/（26MB）の軽量化** — 手出し無用として永久保留（2026-09-06 指示）。ビットレート再エンコード等は実施しない。
 
 ## 作業メモ
 

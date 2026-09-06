@@ -20,14 +20,14 @@
         <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20260208"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20260206"/>
         <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20260103"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20250208"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20250206"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20250103"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20240929"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20240915"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20240623"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20240208"/>
-        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki.html#he20240206"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20250208"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20250206"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20250103"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20240929"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20240915"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20240623"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20240208"/>
+        <rdf:li rdf:resource="https://karattebakabon.github.io/rireki_old4.html#he20240206"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -85,56 +85,56 @@
     <description>そういや先日のKERA sings ナゴムレコードでは空バカからも2曲歌われたそうで（「パヤパヤ」アンコールで「労働者M」）。</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20250208">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20250208">
     <title>ハヤブサのユウことうっちー59歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2025-02-08</dc:date>
     <description>空バカはこの人がいないと始まらないのですよ！</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20250206">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20250206">
     <title>大槻"モヨコ"ケンヂ59歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2025-02-06</dc:date>
     <description>来年は還暦！　赤いちゃんちゃんこ着るのかな？　そういや『子どもたちのCity』の頃に半纏っぽいの着てたよね。</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20250103">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20250103">
     <title>ケラリーノ・サンドロヴィッチ御大62歳バースデー！</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2025-01-03</dc:date>
     <description>去年は思いっきりスルーしてしまいましたが、今年はバッチリです。しっかりTwitter改めXもチェックしましたよ。</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20240929">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20240929">
     <title>Cursorを使って11ファイルを微修正</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2024-09-29</dc:date>
     <description>更新履歴の文章も入力中にサジェスト出てくるけど、ほぼ無視！</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20240915">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20240915">
     <title>本格的にCursorを使い始めたので、色々修正中</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2024-09-15</dc:date>
     <description>AI Chatの提案に従ってメインページと更新履歴をちょいと修正。にしても、文章のサジェストがですます調ばっかりなのはどうなのよ。</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20240623">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20240623">
     <title>ClaudeのArtifactsにてsvgファイル作ったりGithub Actionsの自動化ワークフロー作ったり</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2024-06-23</dc:date>
     <description>faviconは問題ないのでいずれ全ページに適用するけど、ワークフローは動かないな……</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20240208">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20240208">
     <title>ハヤブサのユウことうっちー58歳バースデー</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2024-02-08</dc:date>
     <description>2日前にはTwitter改めXにて大槻のツイート改めポストに反応してましたな！</description>
   </item>
 
-  <item rdf:about="https://karattebakabon.github.io/rireki.html#he20240206">
+  <item rdf:about="https://karattebakabon.github.io/rireki_old4.html#he20240206">
     <title>ケラバースデースルーしてもうた……大槻"モヨコ"ケンヂ58歳バースデー</title>
     <link>https://karattebakabon.github.io/</link>
     <dc:date>2024-02-06</dc:date>

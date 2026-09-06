@@ -6,3 +6,6 @@ rss/rss.tbl
 .specstory/
 .claude/
 2026-*.txt
+
+# Session logs and workspace artifacts
+log/

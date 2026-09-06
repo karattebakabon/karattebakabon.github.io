@@ -24,3 +24,21 @@ div.center {text-align: center} /*文字の位置中心*/
 .h4 { font-size: 1.5rem; color: #9999ff; font-family: serif; } 
 body { margin: 0; padding: 0; }
 img {pointer-events: none;} /*画像のドラッグ＆右クリック保存を禁止*/
+
+/* 更新履歴iframeラッパー（index.html用・旧css.txtから取り込み 2026-09-06） */
+.rirekiWraper {
+    position: relative;
+    width: calc(100% - 10px);
+    margin: 0 auto;
+}
+
+.iframeWrap {
+    height: 0;
+    padding-bottom: 62.5%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
