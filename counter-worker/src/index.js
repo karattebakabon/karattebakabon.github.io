@@ -96,7 +96,7 @@ function renderCounter(today, yesterday, total) {
   <rect width="200" height="88" fill="#102806" stroke="#CCCCCC" stroke-dasharray="3 2"/>
   <g transform="translate(0,8)">${cell("TODAY", today)}</g>
   <g transform="translate(0,40)">${cell("YESTERDAY", yesterday)}</g>
-  <g transform="translate(0,58)">${cell("TOTAL (since 2015-11-13 reset)", total)}</g>
+  <g transform="translate(0,58)">${cell("TOTAL (since 2026-09-06 reset)", total)}</g>
 </svg>`;
 }
 
