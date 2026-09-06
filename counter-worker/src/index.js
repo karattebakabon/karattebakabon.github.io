@@ -87,16 +87,19 @@ function prevMonth(yyyymm) {
 // 背景: #102806（サイトのダークグリーン）・数字GIF風の枠線
 function renderCounter(today, yesterday, total) {
   const digits = (n, w = 6) => String(n).padStart(w, "0");
-  const cell = (label, num) => `
+  // 各セル: 上段に小さめラベル、下段に数字。ラベルは右側スペースを確保するため
+  // 現在3行構成（200x88内に T / Y / TOTAL の3セルを縦積み）
+  const cell = (y, label, num, labelSize = 8, numSize = 12) => `
     <g>
-      <text x="10" y="14" font-size="9" fill="#66ccff" font-family="monospace">${label}</text>
-      <text x="10" y="30" font-size="14" fill="#FFFCA0" font-family="monospace" letter-spacing="1">${digits(num)}</text>
+      <text x="12" y="${y + 9}" font-size="${labelSize}" fill="#66ccff" font-family="monospace">${label}</text>
+      <text x="12" y="${y + 23}" font-size="${numSize}" fill="#FFFCA0" font-family="monospace" letter-spacing="1">${digits(num)}</text>
     </g>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="88" viewBox="0 0 200 88">
-  <rect width="200" height="88" fill="#102806" stroke="#CCCCCC" stroke-dasharray="3 2"/>
-  <g transform="translate(0,8)">${cell("TODAY", today)}</g>
-  <g transform="translate(0,40)">${cell("YESTERDAY", yesterday)}</g>
-  <g transform="translate(0,58)">${cell("TOTAL (since 2026-09-06 reset)", total)}</g>
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="164" height="88" viewBox="0 0 164 88">
+  <rect width="164" height="88" fill="#102806" stroke="#CCCCCC" stroke-dasharray="3 2"/>
+  ${cell(4, "TODAY", today)}
+  ${cell(32, "Y'DAY", yesterday)}
+  ${cell(60, "TOTAL", total)}
+  <text x="120" y="80" font-size="6.5" fill="#66ccff" font-family="monospace">since 2026-09-06</text>
 </svg>`;
 }
 

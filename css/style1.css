@@ -29,12 +29,13 @@ img {pointer-events: none;} /*画像のドラッグ＆右クリック保存を�
 .rirekiWraper {
     position: relative;
     width: calc(100% - 10px);
+    max-width: 640px;
     margin: 0 auto;
 }
 
 .iframeWrap {
     height: 0;
-    padding-bottom: 62.5%;
+    padding-bottom: 66.4%; /* 425px ÷ 640px ＝ iframe実アスペクト比 */
 }
 
 iframe {
